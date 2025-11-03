@@ -27,8 +27,8 @@ const Header = () => {
           <div className="flex items-center space-x-4 group cursor-pointer">
             {/* Logo Icon */}
             <div className="relative">
-              <div className="w-12 h-12 bg-gradient-to-br from-white via-gray-100 to-gray-200 rounded-lg flex items-center justify-center shadow-2xl border border-white/20 group-hover:scale-110 group-hover:shadow-white/30 transition-all duration-700">
-                <div className="text-black font-black text-xl tracking-tighter">SC</div>
+              <div className="w-12 h-12 bg-gradient-to-br from-white via-gray-100 to-gray-200 rounded-lg flex items-center justify-center shadow-2xl border border-white/20 group-hover:scale-110 group-hover:shadow-white/30 transition-all duration-700 overflow-hidden">
+                <img src="/ChatGPT Image 3 nov 2025, 18_06_54.png" alt="SC Logo" className="w-full h-full object-contain p-1" />
               </div>
               <div className="absolute -top-1 -right-1 w-4 h-4 bg-white rounded-full opacity-80 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
